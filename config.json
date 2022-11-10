@@ -3,11 +3,31 @@
     "job": "Frontend Developer",
     "bg": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     "github": "NobertoFerreiraFilho",
-    "favoritos": [
+    "favorites": [
         {
-            "title": "Frostpunk - Neve e Steak tartare",
-            "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
-            "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
+            "title": "NobertoFilho",
+            "url": "https://github.com/NobertoFerreiraFilho/NobertoTube",
+            "thumb": "https://github.com/NobertoFerreiraFilho.png"
+        },
+        {
+            "title": "Alura",
+            "url": "https://www.youtube.com/c/Alura",
+            "thumb": "https://yt3.ggpht.com/xqhIoXspeX7eqouJvNHl1xqpv9213Pl26ENZbuouXxO2RlDadjsveNXfgnj8GTUk7thFYUkVRg=s176-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "title": "TraversyMedia",
+            "url": "https://www.youtube.com/user/TechGuyWeb",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu-fB-c8gczS81r-VBWgzndcSZgd1zGA2QcYfACHMg=s176-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "title": "Canaltech",
+            "url": "https://www.youtube.com/CanalTech",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu_B2N15Iv2b8IYDYcrjkXScMam9LGnVyfadI_Fu1ok=s176-c-k-c0x00ffffff-no-rj"
+        },
+        {
+            "title": "PatteTech",
+            "url": "https://www.youtube.com/c/PatteTech",
+            "thumb": "https://yt3.ggpht.com/mtcm1MVbCILKi2Ss43Mx3c6tZZV4Cea2Kk2ioyjaNfpDU6T6U1nbj-2yH3m0bGS2_dYq6o8Y=s176-c-k-c0x00ffffff-no-rj"
         }
     ],
     "playlists": {
