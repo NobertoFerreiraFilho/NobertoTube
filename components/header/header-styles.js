@@ -1,15 +1,6 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.div`
-  .banner {
-    position: absolute;
-    width: 1512px;
-    height: 230px;
-    left: 0px;
-    top: 55px;
-    background: url(https://github.com/NobertoFerreiraFilho/NobertoTube/blob/main/img/banner.jpg);
-  }
-
   .user-info {
     margin-top: 50px;
     display: flex;
@@ -28,4 +19,11 @@ export const StyledHeader = styled.div`
     display: flex;
     flex-direction: column;
   }
+
+  `;
+ export const StyledBanner = styled.div`
+    background-color: blue;
+    background-image: url(${({ bg }) => bg});
+    /* background-image: url(${config.bg}); */
+    height: 230px;
 `;

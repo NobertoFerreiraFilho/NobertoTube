@@ -3,14 +3,12 @@ import react from "react";
 import config from "../../config.json";
 
 //Styles
-import { StyledHeader } from "./header-styles";
-
-
+import { StyledHeader, StyledBanner } from "./header-styles";
 
 const Header = () => {
   return (
     <StyledHeader>
-      <div className="banner"/>
+      <StyledBanner bg={config.bg} />
       <div className="user-info">
         <img
           src={`https://github.com/${config.github}.png`}

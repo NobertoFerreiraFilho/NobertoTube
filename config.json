@@ -1,17 +1,13 @@
 {
     "name": "Noberto Filho",
     "job": "Frontend Developer",
+    "bg": "https://github.com/NobertoFerreiraFilho/NobertoTube/blob/main/img/banner.jpg",
     "github": "NobertoFerreiraFilho",
-    "favoritos":[
+    "favoritos": [
         {
             "title": "Frostpunk - Neve e Steak tartare",
             "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
             "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
-        },
-        {
-            "title": "Frostpunk - Neve e Steak tartare",
-            "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg",
-            "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
         }
     ],
     "playlists": {
