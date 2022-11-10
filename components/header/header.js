@@ -4,15 +4,13 @@ import config from "../../config.json";
 
 //Styles
 import { StyledHeader } from "./header-styles";
-//components
-import Banner from "./banner/banner";
+
 
 
 const Header = () => {
   return (
     <StyledHeader>
       <div className="banner"/>
-      <Banner />
       <div className="user-info">
         <img
           src={`https://github.com/${config.github}.png`}
