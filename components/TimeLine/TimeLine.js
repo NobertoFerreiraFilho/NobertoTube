@@ -2,12 +2,12 @@ import React from "react";
 import { StyledTimeline } from "./Timeline-styles";
 
 const TimeLine = (props) => {
-  const playlistNames = Object.keys(props.playlists);
+  const playlistNames = Object.keys(props.playlists)
 
   return (
     <StyledTimeline>
       {playlistNames.map((playlistName) => {
-        const videos = props.playlists[playlistName];
+        const videos = props.playlists[playlistName]
         return (
           <section className="playlist">
             <h2 className="playlist__name">{playlistName}</h2>
@@ -24,7 +24,6 @@ const TimeLine = (props) => {
           </section>
         );
       })}
-      ;
     </StyledTimeline>
   );
 };

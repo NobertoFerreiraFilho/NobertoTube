@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const StyledTimeline = styled.div`
   flex: 1;
   width: 100%;
-  padding: 16px;
+  padding: 1rem;
   overflow: hidden;
-  h2 {
+  .playlist__name {
     font-size: 16px;
     margin-bottom: 16px;
     text-transform: capitalize;
   }
-  img {
+  .video__image {
     aspect-ratio: 16/9;
     font-weight: 500;
     object-fit: cover;
@@ -18,11 +18,11 @@ export const StyledTimeline = styled.div`
     max-width: 210px;
     height: auto;
   }
-  section {
+  .playlist {
     width: 100%;
     padding: 0;
     overflow: hidden;
-    padding: 16px;
+    padding: 0 0 2rem;
     div {
       
       width: calc(100vw - 16px * 4);

@@ -7,6 +7,7 @@ import { CSSReset } from "../src/components/CSSReset";
 import Header from "../components/header/header";
 import Menu from "../components/Menu/menu";
 import TimeLine from "../components/TimeLine/TimeLine";
+import Favorites from "../components/Favorites/favorites";
 
 function HomePage() {
   const estilodanav = { 
@@ -22,6 +23,7 @@ function HomePage() {
         <Menu />
         <Header />
         <TimeLine playlists={config.playlists} />
+        <Favorites favorites={config.favorites} />
       </div>
     </>
   );
