@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import config from "../../config.json";
 
 export const StyledHeader = styled.div`
   .user-info {
@@ -19,11 +20,12 @@ export const StyledHeader = styled.div`
     display: flex;
     flex-direction: column;
   }
+`;
 
-  `;
- export const StyledBanner = styled.div`
-    background-color: blue;
-    background-image: url(${({ bg }) => bg});
-    /* background-image: url(${config.bg}); */
-    height: 230px;
+export const StyledBanner = styled.div`
+  background-color: blue;
+  background: url(${({ bg }) => bg});
+  background-size: contain ;
+  /* background-image: url(${config.bg}); */
+  height: 230px;
 `;

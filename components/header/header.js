@@ -7,20 +7,22 @@ import { StyledHeader, StyledBanner } from "./header-styles";
 
 const Header = () => {
   return (
-    <StyledHeader>
+    <>
       <StyledBanner bg={config.bg} />
-      <div className="user-info">
-        <img
-          src={`https://github.com/${config.github}.png`}
-          alt="User photo"
-          className="user__photo"
-        />
-        <div className="user__data">
-          <h2 className="user__name">{config.name}</h2>
-          <p className="user__job">{config.job}</p>
+      <StyledHeader>
+        <div className="user-info">
+          <img
+            src={`https://github.com/${config.github}.png`}
+            alt="User photo"
+            className="user__photo"
+          />
+          <div className="user__data">
+            <h2 className="user__name">{config.name}</h2>
+            <p className="user__job">{config.job}</p>
+          </div>
         </div>
-      </div>
-    </StyledHeader>
+      </StyledHeader>
+    </>
   );
 };
 
