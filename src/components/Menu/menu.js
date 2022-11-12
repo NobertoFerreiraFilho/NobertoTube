@@ -5,13 +5,13 @@ import Search from "./components/Search/search";
 //Styles
 import { StyledMenu } from "./menu-styles";
 
-const Menu = () => {
+const Menu = ({valorDoFiltro, setValorDoFiltro}) => {
   return (
     <StyledMenu>
       <div>
         <Logo />
       </div>
-        <Search/>
+        <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
     </StyledMenu>
   );
 
