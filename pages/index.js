@@ -22,7 +22,7 @@ function HomePage() {
 
   return (
     <>
-      <CSSReset />
+
       <div style={estilodanav}>
         <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
         <Header />
