@@ -1,6 +1,6 @@
 import react from "react";
 //config
-import config from "../../config.json";
+import config from "../../../config.json";
 
 //Styles
 import { StyledHeader, StyledBanner } from "./header-styles";
