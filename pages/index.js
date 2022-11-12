@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState}from "react";
 //config
 import config from "../config.json";
 //styles
@@ -10,6 +10,10 @@ import TimeLine from "../src/components/TimeLine/TimeLine";
 import Favorites from "../src/components/Favorites/favorites";
 
 function HomePage() {
+
+    const [valorDoFiltro, setValorDoFiltro] = useState("");
+
+
   const estilodanav = {
     display: "flex",
     flexDirection: "column",
@@ -20,9 +24,9 @@ function HomePage() {
     <>
       <CSSReset />
       <div style={estilodanav}>
-        <Menu />
+        <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
         <Header />
-        <TimeLine playlists={config.playlists} />
+        <TimeLine searchValue={valorDoFiltro} playlists={config.playlists} />
         <Favorites favorites={config.favorites} />
       </div>
     </>

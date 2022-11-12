@@ -25,7 +25,7 @@ export const StyledHeader = styled.div`
 export const StyledBanner = styled.div`
   background-color: blue;
   background: url(${({ bg }) => bg});
+  /* background-image: url(${config.bg}); *//*Forma alternativa de carregar o banner vindo do config.json */ 
   background-size: contain ;
-  /* background-image: url(${config.bg}); */
   height: 230px;
 `;

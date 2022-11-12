@@ -10,8 +10,8 @@ const Favorites = (props) => {
       <div className="favorites-wrapper">
       {favorites.map((Favorite, index) => {
         return (
-          <div className="favorite" >
-                  <a href={Favorite.url} className="favorite__profile" key={index}>
+          <div className="favorite" key={index} >
+                  <a href={Favorite.url} className="favorite__profile" >
                     <img src={Favorite.thumb} alt="" className="profile__image" />
                     <span className="profile__name">@{Favorite.title}</span>
                   </a>
