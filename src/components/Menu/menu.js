@@ -1,14 +1,16 @@
 import react from "react";
 //components
-import Logo from "./logo";
+import Logo from "./components/logo";
+import Search from "./components/Search/search";
 //Styles
-import { StyledMenu } from './menu-styles'
+import { StyledMenu } from "./menu-styles";
 
 const Menu = () => {
   return (
     <StyledMenu>
       <div>
         <Logo />
+        <Search/>
       </div>
     </StyledMenu>
   );
