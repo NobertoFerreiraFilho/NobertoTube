@@ -4,10 +4,10 @@ import config from "../config.json";
 //styles
 import { CSSReset } from "../src/components/CSSReset";
 //components
-import Header from "../components/header/header";
+import Header from "../src/components/header/header";
 import Menu from "../src/components/Menu/menu";
 import TimeLine from "../src/components/TimeLine/TimeLine";
-import Favorites from "../components/Favorites/favorites";
+import Favorites from "../src/components/Favorites/favorites";
 
 function HomePage() {
   const estilodanav = {

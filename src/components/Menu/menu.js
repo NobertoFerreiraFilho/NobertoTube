@@ -10,8 +10,8 @@ const Menu = () => {
     <StyledMenu>
       <div>
         <Logo />
-        <Search/>
       </div>
+        <Search/>
     </StyledMenu>
   );
 
