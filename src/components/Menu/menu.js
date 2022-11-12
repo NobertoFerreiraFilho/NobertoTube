@@ -1,6 +1,7 @@
 import react from "react";
 //components
 import Logo from "./components/logo";
+import DarkModeSwitch from "./components/ModeSwitch/DarkModeSwitch";
 import Search from "./components/Search/search";
 //Styles
 import { StyledMenu } from "./menu-styles";
@@ -8,10 +9,12 @@ import { StyledMenu } from "./menu-styles";
 const Menu = ({valorDoFiltro, setValorDoFiltro}) => {
   return (
     <StyledMenu>
+      
       <div>
         <Logo />
       </div>
         <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
+        <DarkModeSwitch />
     </StyledMenu>
   );
 

@@ -2,8 +2,7 @@ import styled from "styled-components";
 import config from "../../../config.json";
 
 export const StyledFavorites = styled.div`
-  
-  margin: 0 1rem 22px;
+  margin: 0 0 22px;
 
   .favorites__title {
     font-family: "Helvetica";
@@ -12,12 +11,15 @@ export const StyledFavorites = styled.div`
     font-size: 16px;
     line-height: 18px;
     color: #000000;
-    margin: 0 0 1rem;
+    padding: 0 1rem 1rem;
+    color: ${({theme}) => theme.textColorBase};
+
   }
 
   .favorites-wrapper {
     display: flex;
     gap: 0.5rem;
+    padding: 0 1rem 1rem;
   }
 
   .favorite__profile {
@@ -39,6 +41,6 @@ export const StyledFavorites = styled.div`
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #000000;
+    color: ${({theme}) => theme.textColorBase};
   }
 `;

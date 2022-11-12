@@ -2,6 +2,10 @@ import styled from "styled-components";
 import config from "../../../config.json";
 
 export const StyledHeader = styled.div`
+
+  background-color: ${({theme}) => theme.backgroundLevel1};
+  color: ${({theme}) => theme.backgroundLevel1};
+
   .user-info {
     margin-top: 50px;
     display: flex;
@@ -9,6 +13,7 @@ export const StyledHeader = styled.div`
     width: 100%;
     padding: 16px 32px;
     gap: 16px;
+    color: ${({theme}) => theme.textColorBase};
   }
 
   img {
