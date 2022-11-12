@@ -1,8 +1,6 @@
 import React, {useState}from "react";
 //config
 import config from "../config.json";
-//styles
-import { CSSReset } from "../src/components/CSSReset";
 //components
 import Header from "../src/components/header/header";
 import Menu from "../src/components/Menu/menu";
@@ -22,7 +20,6 @@ function HomePage() {
 
   return (
     <>
-
       <div style={estilodanav}>
         <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
         <Header />
