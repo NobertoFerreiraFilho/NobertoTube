@@ -5,10 +5,15 @@ export const StyledTimeline = styled.div`
   width: 100%;
   padding: 1rem;
   overflow: hidden;
+
   .playlist__name {
     font-size: 16px;
     margin-bottom: 16px;
+    padding-left: 1rem ;
     text-transform: capitalize;
+    font-weight: bold;
+    align-self: flex-start;
+
   }
   .video__image {
     aspect-ratio: 16/9;
@@ -17,17 +22,20 @@ export const StyledTimeline = styled.div`
     width: 100%;
     max-width: 210px;
     height: auto;
+    border-radius: 10px;
   }
   .playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    padding: 0;
     overflow: hidden;
     padding: 0 0 2rem;
+    
     div {
-      
-      width: calc(100vw - 16px * 4);
+      width: calc(100vw);
       display: grid;
-      grid-gap: 16px;
+      grid-column-gap: 8px;
       grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
       grid-auto-flow: column;
       grid-auto-columns: minmax(200px,1fr);
@@ -36,9 +44,9 @@ export const StyledTimeline = styled.div`
       a {
         scroll-snap-align: start;
         span {
-          padding-top: 8px;
+          padding-top: 0.5rem;
           display: block;
-          padding-right: 24px;
+          padding-right: 1rem;
           color: ${({ theme }) => theme.textColorBase || "#222222"};
         }
       }

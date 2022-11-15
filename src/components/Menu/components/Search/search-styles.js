@@ -6,17 +6,22 @@ export const StyledSearch = styled.div`
   border: 1px solid ${({ theme }) => theme.borderBase};
   max-width: 425px;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 20px;
   overflow: hidden;
   
+  input::placeholder{
+    padding: 0rem 0rem;
+  }
+
   input {
     width: 80%;
-    padding: 4px 6px;
+    padding: 0.3rem 1rem;
     border: none;
     outline: none;
     color: ${({ theme }) => theme.textColorBase};
     background-color: ${({ theme }) => theme.backgroundBase};
   }
+
   button {
     flex: 1;
     cursor: pointer;
@@ -24,11 +29,11 @@ export const StyledSearch = styled.div`
     background-color: ${({ theme }) => theme.backgroundLevel2};
     box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
     border-left: 1px solid ${({ theme }) => theme.borderBase};
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 35px;
     @media (min-width: 600px) {
-      width: 64px;
-      height: 40px;
+      width: 44px;
+      height: 35px;
     }
   }
 `;
