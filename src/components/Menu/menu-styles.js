@@ -22,4 +22,5 @@ export const StyledMenu = styled.header`
       fill: ${({ theme }) => theme.textColorBase || "#222222"};
     }
   }
+  
 `;

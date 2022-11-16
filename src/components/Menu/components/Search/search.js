@@ -8,7 +8,7 @@ import { StyledSearch } from "./search-styles";
 
     return (
         <StyledSearch>
-            <input type="text" onChange={(e) => setValorDaBusca(e.target.value)} value={valorDaBusca} />
+            <input type="text" onChange={(e) => setValorDaBusca(e.target.value)} value={valorDaBusca} placeholder='Pesquisar'/>
             <button>
                 🔎
             </button>

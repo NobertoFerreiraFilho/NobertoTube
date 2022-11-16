@@ -3,6 +3,7 @@ import config from "../../../config.json";
 
 export const StyledFavorites = styled.div`
   margin: 0 0 22px;
+  width: 100%;
 
   .favorites__title {
     font-family: "Helvetica";
@@ -42,5 +43,8 @@ export const StyledFavorites = styled.div`
     font-size: 14px;
     line-height: 16px;
     color: ${({theme}) => theme.textColorBase};
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: 150px;
   }
 `;

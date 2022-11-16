@@ -5,7 +5,7 @@ export const StyledHeader = styled.div`
 
   background-color: ${({theme}) => theme.backgroundLevel1};
   color: ${({theme}) => theme.backgroundLevel1};
-
+  width: 100%;
   .user-info {
     margin-top: 50px;
     display: flex;
@@ -25,6 +25,10 @@ export const StyledHeader = styled.div`
     display: flex;
     flex-direction: column;
   }
+
+  @media screen and (min-width: 768px) {
+    margin-left: 150px;
+  }
 `;
 
 export const StyledBanner = styled.div`
@@ -33,4 +37,8 @@ export const StyledBanner = styled.div`
   /* background-image: url(${config.bg}); *//*Forma alternativa de carregar o banner vindo do config.json */ 
   background-size: contain ;
   height: 230px;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    margin-left: 150px;
+  }
 `;
