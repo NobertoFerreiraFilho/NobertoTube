@@ -52,4 +52,7 @@ export const StyledTimeline = styled.div`
       }
     }
   }
+  @media screen and (min-width: 768px) {
+    margin-left: 150px;
+  }
 `;

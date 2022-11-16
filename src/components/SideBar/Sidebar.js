@@ -21,7 +21,6 @@ const SideBar = (props) => {
     };
   });
 
-  console.log(screenWidth);
   return (
     <>
       {screenWidth > 768 && (
