@@ -18,7 +18,7 @@ Project developed as part of the Alura course "Imersão React".
 <img src='https://img.shields.io/github/issues/NobertoFerreiraFilho/NobertoTube'>
 </p>
 
-![gif of the project]()
+![gif of the project](https://github.com/NobertoFerreiraFilho/NobertoTube/blob/main/img/AluraTube-Noberto.gif#vitrinedev)
 
 ## Detalhes do projeto
 
@@ -27,15 +27,15 @@ Project developed as part of the Alura course "Imersão React".
   <tr>
     <td>
       <p>425 px</P>
-      <img src='' width=105/>
+      <img src='https://github.com/NobertoFerreiraFilho/NobertoTube/blob/main/img/homepage-small-425.png' width=105/>
     </td>
     <td>
-      <p>1024 px</P>
-      <img src='' width=170/>
+      <p>768 px</P>
+      <img src='https://github.com/NobertoFerreiraFilho/NobertoTube/blob/main/img/homepage-medium-768.png' width=170/>
     </td> 
     <td>
-      <p>1728 px</P>
-      <img src='' width=335/>
+      <p>1440 px</P>
+      <img src='https://github.com/NobertoFerreiraFilho/NobertoTube/blob/main/img/homepage-large-1440.png' width=335/>
     </td> 
   </tr>
 </table>
@@ -52,7 +52,7 @@ Project developed as part of the Alura course "Imersão React".
 ### Extra features implemented beyond the Alura course scope for this activity
 
  <ul>
-  <li></li>
+  <li>Rsponsive side menu toggled at 768px</li>
 </ul>
 
 ## Technics, Technologies and Dependences used
